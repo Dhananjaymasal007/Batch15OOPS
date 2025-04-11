@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Batch15OOPS
 {
-    internal class test
+    class Test
     {
     }
 }
