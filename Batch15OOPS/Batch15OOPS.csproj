@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Batch15OOPS.TestInterface</StartupObject>   
+    <StartupObject>Batch15OOPS.NonGenericColl</StartupObject>   
   </PropertyGroup>
 
 </Project>
