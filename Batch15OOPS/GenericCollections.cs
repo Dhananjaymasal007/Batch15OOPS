@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -73,7 +74,7 @@ namespace Batch15OOPS
             //find element in dictionary
 
 
-            if (name.ContainsKey("Rohit"))
+            if (name.ContainsKey("Rohit1"))
             {
                 Console.WriteLine("Exist in Dictionary");
             }
@@ -110,7 +111,25 @@ namespace Batch15OOPS
             Console.WriteLine(thridelement);
 
 
+            //**************Stack****************//
+            //LIFO- Last in FIrst out
 
+            Stack st = new Stack();
+            //add elements to the stack
+            st.Push("TOP");
+            st.Push(42);
+            st.Push(false);
+            st.Push(5656565);
+
+            Console.WriteLine(st);
+
+            object topelement = st.Pop();
+            object secondelements =  st.Pop();   
+            object thridelements  = st.Pop();
+
+            Console.WriteLine(topelement);
+            Console.WriteLine(secondelements);
+            Console.WriteLine(thridelements);
 
 
 
