@@ -47,10 +47,7 @@ namespace Batch15OOPS
             int deno = 0;
             double result = 0;
 
-            try
-            {
-
-            }
+            
             try
             {
                 result = num/deno;
